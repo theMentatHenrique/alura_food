@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Main-Class: br.com.alurafood.gateway.GatewayApplication
+Class-Path: spring-cloud-gateway-server-mvc-4.1.0.jar tomcat-embed-core-
+ 10.1.17.jar antlr-2.7.7.jar guava-19.0.jar jackson-annotations-2.15.3.j
+ ar spring-beans-6.1.2.jar mxparser-1.2.2.jar jakarta.ws.rs-api-3.1.0.ja
+ r hibernate-validator-8.0.1.Final.jar slf4j-api-2.0.9.jar jboss-logging
+ -3.5.3.Final.jar micrometer-commons-1.12.1.jar spring-cloud-context-4.1
+ .0.jar httpclient-4.5.3.jar spring-cloud-starter-loadbalancer-4.1.0.jar
+  spring-web-6.1.2.jar netflix-eventbus-0.3.0.jar logback-classic-1.4.14
+ .jar commons-jxpath-1.3.jar httpcore-4.4.16.jar spring-security-rsa-1.1
+ .1.jar jakarta.inject-api-2.0.1.jar joda-time-2.3.jar spring-boot-start
+ er-tomcat-3.2.1.jar reactor-extra-3.5.1.jar spring-cloud-starter-config
+ -4.0.2.jar jakarta.annotation-api-2.1.1.jar log4j-api-2.21.1.jar xstrea
+ m-1.4.19.jar spring-cloud-starter-4.1.0.jar tomcat-embed-websocket-10.1
+ .17.jar woodstox-core-6.2.1.jar jackson-databind-2.15.3.jar jakarta.val
+ idation-api-3.0.2.jar stringtemplate-3.2.1.jar reactive-streams-1.0.4.j
+ ar spring-core-6.1.2.jar spring-cloud-starter-netflix-eureka-client-4.1
+ .0.jar gson-2.10.1.jar commons-math-2.2.jar antlr-runtime-3.4.jar logba
+ ck-core-1.4.14.jar httpclient5-5.2.3.jar spring-cloud-starter-gateway-m
+ vc-4.1.0.jar spring-expression-6.1.2.jar spring-boot-starter-web-3.2.1.
+ jar bcprov-jdk18on-1.74.jar tomcat-embed-el-10.1.17.jar micrometer-obse
+ rvation-1.12.1.jar servo-core-0.12.21.jar classmate-1.6.0.jar netflix-i
+ nfix-0.3.0.jar xmlpull-1.1.3.1.jar reactor-core-3.6.1.jar spring-cloud-
+ commons-4.1.0.jar spring-security-crypto-6.2.1.jar spring-cloud-config-
+ client-4.1.0.jar commons-codec-1.16.0.jar spring-boot-autoconfigure-3.2
+ .1.jar spring-boot-starter-validation-3.2.1.jar spring-boot-starter-cac
+ he-3.2.1.jar commons-lang-2.6.jar spring-cloud-netflix-eureka-client-4.
+ 0.2.jar httpcore5-h2-5.2.4.jar httpcore5-5.2.4.jar jettison-1.4.0.jar s
+ pring-boot-starter-3.2.1.jar jackson-module-parameter-names-2.15.3.jar 
+ jackson-core-2.15.3.jar spring-context-support-6.1.2.jar spring-context
+ -6.1.2.jar log4j-to-slf4j-2.21.1.jar eureka-client-2.0.1.jar evictor-1.
+ 0.0.jar spring-boot-starter-json-3.2.1.jar commons-configuration-1.10.j
+ ar jul-to-slf4j-2.0.9.jar eureka-core-2.0.1.jar jackson-datatype-jdk8-2
+ .15.3.jar spring-jcl-6.1.2.jar spring-webmvc-6.1.2.jar jackson-datatype
+ -jsr310-2.15.3.jar spring-boot-3.2.1.jar stax2-api-4.2.1.jar snakeyaml-
+ 2.2.jar spring-aop-6.1.2.jar spring-cloud-loadbalancer-4.1.0.jar spring
+ -boot-starter-logging-3.2.1.jar
+

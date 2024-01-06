@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Main-Class: br.com.alurafood.server.ServerApplication
+Class-Path: jakarta.annotation-api-2.1.1.jar eureka-core-jersey3-2.0.1.j
+ ar jackson-datatype-jsr310-2.15.3.jar netflix-infix-0.3.0.jar jakarta.w
+ s.rs-api-3.1.0.jar spring-boot-starter-logging-3.2.1.jar gson-2.10.1.ja
+ r woodstox-core-6.5.1.jar reactor-core-3.6.1.jar jul-to-slf4j-2.0.9.jar
+  jersey-hk2-3.1.5.jar spring-cloud-starter-netflix-eureka-server-4.0.2.
+ jar spring-cloud-commons-4.1.0.jar LatencyUtils-2.0.3.jar jackson-modul
+ e-parameter-names-2.15.3.jar bcprov-jdk18on-1.74.jar jackson-annotation
+ s-2.15.3.jar osgi-resource-locator-1.0.3.jar jersey-client-3.1.5.jar ja
+ karta.inject-api-2.0.1.jar logback-core-1.4.14.jar jackson-datatype-jdk
+ 8-2.15.3.jar snakeyaml-2.2.jar jaxb-runtime-4.0.4.jar micrometer-core-1
+ .12.1.jar angus-activation-2.0.1.jar hk2-locator-3.0.5.jar jettison-1.4
+ .0.jar slf4j-api-2.0.9.jar spring-core-6.1.2.jar javassist-3.29.2-GA.ja
+ r httpcore5-h2-5.2.4.jar spring-security-rsa-1.1.1.jar tomcat-embed-el-
+ 10.1.17.jar commons-lang-2.6.jar joda-time-2.3.jar jersey-apache-connec
+ tor-3.1.5.jar spring-jcl-6.1.2.jar logback-classic-1.4.14.jar httpclien
+ t-4.5.3.jar eureka-client-2.0.1.jar stax2-api-4.2.1.jar spring-cloud-ne
+ tflix-eureka-client-4.1.0.jar spring-security-crypto-6.2.1.jar jakarta.
+ validation-api-3.0.2.jar reactive-streams-1.0.4.jar istack-commons-runt
+ ime-4.1.2.jar micrometer-jakarta9-1.12.1.jar netflix-eventbus-0.3.0.jar
+  hk2-api-3.0.5.jar jaxb-core-4.0.4.jar spring-cloud-starter-loadbalance
+ r-4.1.0.jar spring-boot-starter-tomcat-3.2.1.jar spring-boot-actuator-3
+ .2.1.jar tomcat-embed-websocket-10.1.17.jar spring-cloud-context-4.1.0.
+ jar spring-cloud-netflix-eureka-server-4.1.0.jar mxparser-1.2.2.jar xml
+ pull-1.1.3.1.jar log4j-to-slf4j-2.21.1.jar spring-webmvc-6.1.2.jar spri
+ ng-boot-starter-actuator-3.2.1.jar commons-configuration-1.10.jar jacks
+ on-databind-2.15.3.jar commons-jxpath-1.3.jar spring-boot-autoconfigure
+ -3.2.1.jar spring-beans-6.1.2.jar spring-context-6.1.2.jar servo-core-0
+ .12.21.jar guava-19.0.jar antlr-2.7.7.jar jersey-container-servlet-3.1.
+ 5.jar spring-web-6.1.2.jar txw2-4.0.4.jar spring-cloud-loadbalancer-4.1
+ .0.jar eureka-client-jersey3-2.0.1.jar spring-boot-starter-cache-3.2.1.
+ jar freemarker-2.3.32.jar spring-boot-actuator-autoconfigure-3.2.1.jar 
+ micrometer-observation-1.12.1.jar spring-cloud-starter-4.1.0.jar spring
+ -boot-starter-3.2.1.jar spring-boot-starter-freemarker-3.2.1.jar common
+ s-codec-1.16.0.jar HdrHistogram-2.1.12.jar jackson-dataformat-xml-2.15.
+ 3.jar jersey-server-3.1.5.jar jakarta.activation-api-2.1.2.jar xstream-
+ 1.4.19.jar spring-bridge-3.0.5.jar jakarta.xml.bind-api-4.0.1.jar httpc
+ ore-4.4.16.jar jersey-common-3.1.5.jar spring-aop-6.1.2.jar jersey-cont
+ ainer-servlet-core-3.1.5.jar spring-boot-starter-json-3.2.1.jar spring-
+ boot-3.2.1.jar spring-context-support-6.1.2.jar jackson-core-2.15.3.jar
+  evictor-1.0.0.jar tomcat-embed-core-10.1.17.jar httpcore5-5.2.4.jar re
+ actor-extra-3.5.1.jar httpclient5-5.2.3.jar micrometer-commons-1.12.1.j
+ ar spring-expression-6.1.2.jar aopalliance-repackaged-3.0.5.jar commons
+ -math-2.2.jar hk2-utils-3.0.5.jar eureka-core-2.0.1.jar stringtemplate-
+ 3.2.1.jar spring-boot-starter-web-3.2.1.jar log4j-api-2.21.1.jar antlr-
+ runtime-3.4.jar
+
