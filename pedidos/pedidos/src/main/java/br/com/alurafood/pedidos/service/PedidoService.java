@@ -74,4 +74,8 @@ public class PedidoService {
         pedido.setStatus(Status.PAGO);
         repository.atualizaStatus(Status.PAGO, pedido);
     }
+
+    public void addAll(List<Pedido> pedidos) {
+        repository.saveAll(pedidos);
+    }
 }
