@@ -22,7 +22,7 @@ import java.util.List;
 public class PedidoController {
 
 
-
+        // teste commit
         @Autowired
         private PedidoService service;
 
