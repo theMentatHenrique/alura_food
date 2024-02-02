@@ -1,17 +1,6 @@
-FROM maven:latest as builder
-LABEL authors="henri"
-
-COPY src /app/src
-COPY pom.xml /app
-
-WORKDIR /app
-
-RUN mvn clean install
-
 FROM openjdk:17
+LABEL authors="henri"
+WORKDIR ./app
 
-COPY --from=builder /app/target/server-1.0.jar /app/server-1.0.jar
-
-WORKDIR /app
-
+COPY target/server-1.0.jar .
 CMD ["java", "-jar", "server-1.0.jar"]

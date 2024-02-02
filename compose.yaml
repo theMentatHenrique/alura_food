@@ -1,0 +1,49 @@
+services:
+
+  cloud-eureka:
+    image: springcloud/eureka
+    ports:
+      - 8761:8761
+
+  rabbitMQ:
+    image: rabbitmq:3.12-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      DEFAULT_USER: guest
+      DEFAULT_PASS: guest
+
+  mysql-pagamentos:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_ROOT_PASSWORD=root'
+    ports:
+      - 3306:3306
+
+  pagamentos:
+    build:
+      context: pagamentos/pagamentos
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql-pagamentos
+      - cloud-eureka
+      - rabbitMQ
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mysql://mysql-pagamentos:3306/alurafood-pagamento?createDatabaseIfNotExist=true"
+      SPRING_DATASOURCE_USERNAME: "root"
+      SPRING_DATASOURCE_PASSWORD: "root"
+      SPRING_DATASOURCE_DRIVERCLASSNAME: "com.mysql.cj.jdbc.Driver"
+      SPRING_JPA_SHOW_SQL: "true"
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: "org.hibernate.dialect.MySQL8Dialect"
+      SPRING_JPA_DATABASE_PLATFORM: "org.hibernate.dialect.MySQL8Dialect"
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "http://cloud-eureka:8761/eureka"
+
+
+
+
+
+
+
+
+
