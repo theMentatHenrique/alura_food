@@ -1,0 +1,5 @@
+br\com\alurafood\avaliacao\avaliacao\dto\StatusPagamento.class
+br\com\alurafood\avaliacao\avaliacao\amqp\AvaliacaoAMQPConfiguration.class
+br\com\alurafood\avaliacao\avaliacao\amqp\AvaliacaoListener.class
+br\com\alurafood\avaliacao\avaliacao\AvaliacaoApplication.class
+br\com\alurafood\avaliacao\avaliacao\dto\PagamentoDto.class
