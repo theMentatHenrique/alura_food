@@ -1,4 +1,5 @@
 package br.com.alurafood.pagamentos.amqp;
+/*
 
 import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
@@ -47,4 +48,4 @@ public class PagamentoAMQPConfiguration {
         return new FanoutExchange("pagamentos.ex");
     }
 
-}
+}*/

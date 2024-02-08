@@ -26,9 +26,9 @@ public class PagamentoController {
 
     @Autowired
     private PagamentoService pagamentoService;
-
+/*
     @Autowired
-    private RabbitTemplate rabbitTemplate;
+    private RabbitTemplate rabbitTemplate;*/
 
 
     @GetMapping
@@ -46,7 +46,7 @@ public class PagamentoController {
     public ResponseEntity<PagamentoDTO> cadastrar(@RequestBody @Valid PagamentoDTO dto, UriComponentsBuilder uriBuilder) {
         PagamentoDTO pagamento = pagamentoService.criarPagamento(dto);
         URI endereco = uriBuilder.path("/pagamentos/{id}").buildAndExpand(pagamento.getId()).toUri();
-        rabbitTemplate.convertAndSend("pagamentos.ex", "pagamento.concluido", pagamento);
+      //  rabbitTemplate.convertAndSend("pagamentos.ex", "pagamento.concluido", pagamento);
         return ResponseEntity.created(endereco).body(pagamento);
     }
 
