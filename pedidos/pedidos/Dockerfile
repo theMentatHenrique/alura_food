@@ -15,10 +15,10 @@ RUN mvn clean install
 FROM openjdk:17
 
 # Copie o JAR compilado do estágio de construção para o diretório /app no contêiner
-COPY --from=builder /usr/src/app/target/pagamentos-1.0.jar /app/pagamentos-1.0.jar
+COPY --from=builder /usr/src/app/target/pedidos-1.0.jar /app/pedidos-1.0.jar
 
 # Define o diretório de trabalho como /app
 WORKDIR /app
 
 # Comando para executar o JAR
-CMD ["java", "-jar", "pagamentos-1.0.jar"]
+CMD ["java", "-jar", "pedidos-1.0.jar"]

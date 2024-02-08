@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.alurafood</groupId>
 	<artifactId>pagamentos</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>pagamentos</name>
 	<description>Microsserviço de pagamentos</description>
 	<properties>
